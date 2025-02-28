@@ -1,0 +1,64 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f8ff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    color: #ff4500;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.sun-info, .twilight-info {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.sun-times, .twilight-times {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.sun-item, .twilight-item {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    width: 50%;
+    text-align: center;
+}
+
+.sun-item h3, .twilight-item h3 {
+    margin-bottom: 10px;
+    color: #0077b6;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
